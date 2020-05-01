@@ -1,0 +1,1 @@
+# This program accepts a date as an input and gives the day-name as output.

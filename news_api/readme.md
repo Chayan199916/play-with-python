@@ -1,0 +1,1 @@
+# using news api to extract trending headlines and news 

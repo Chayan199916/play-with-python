@@ -1,0 +1,1 @@
+# This is an simple implementation of OOP concepts like Class, inheritance where an user, who has an account can credit to the account, debit from the account and check the current amount. If he has a checking account he can transfer money between accounts too. Textfile has been used in place of database to store the amount value.
