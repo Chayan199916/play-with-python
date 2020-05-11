@@ -2,7 +2,7 @@ import requests
 import json
 
 
-r = requests.get('https://newsapi.org/v2/top-headlines?country=in&apiKey=427c499ac2b0474d86e3351137b0de9d')
+r = requests.get('https://newsapi.org/v2/top-headlines?country=in&apiKey=YOUR_API_KEY')
 
 content = r.text
 

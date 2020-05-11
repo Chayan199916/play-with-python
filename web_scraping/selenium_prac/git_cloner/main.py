@@ -5,8 +5,8 @@ import time
 driver = webdriver.Chrome("..\chromedriver.exe")
 driver.set_page_load_timeout("20")
 
-account_name = 'Chayan199916' # account name of the person
-repo_name = 'play-with-python' # repo name to be cloned
+account_name = 'YOUR_ACCNT_NAME' # account name of the person
+repo_name = 'DESIRED_REPO_NAME' # repo name to be cloned
 
 search_url = 'https://github.com/' + account_name + '/' + repo_name
 

@@ -1,4 +1,5 @@
 # import math
+'''Run the script and open paint within 9 seconds and place mouse pointer at the center'''
 import pyautogui
 import time
 print('Drawing starts in 9 seconds...')
