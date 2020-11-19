@@ -1,11 +1,14 @@
-D = input("Enter the Date: ")
-lis = D.split('/')
+D = input("Enter the Date: ") # string ex. 28/5/2020
+lis = D.split('/') # [28, 5, 2020]
 no_of_odds = 0
-for i in range(3):
-    lis[i] = int(lis[i])
-mon = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+for i in range(3): 
+    lis[i] = int(lis[i]) # [28, 5, 2020]
+mon = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31] # list definition set(mon) = {28, 31, 30}
 if lis[2] % 4 == 0:
     mon[1] = 29
+# elif condition:
+#     statements 
+# type(lis) = list
 lis[2] = lis[2] - 1
 lis[2] = lis[2] % 400
 res1 = lis[2] % 100 
