@@ -10,7 +10,7 @@ while True:
     print(frame)
     gray_image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     # cv2.imwrite("image.png", frame)
-    cv2.imshow("Captured Image", frame)
+    cv2.imshow("Captured Image", gray_image)
     key = cv2.waitKey(1)
     if key == ord('q'):
         break
